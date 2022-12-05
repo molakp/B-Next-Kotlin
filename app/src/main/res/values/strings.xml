@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">B-Next v0.1</string>
+    <string name="search_button_en">Search</string>
+    <string name="book_now_button_en">Book Now!</string>
+    <string name="price_km_text_it">Quanto vuoi spendere al km?</string>
+    <string name="destination_text_it">Destinazione</string>
+    <string name="date_picker_text_it">Quando vuoi partire?</string>
+    <string name="time_picker_text_it">A che ora?</string>
+    <string name="delete">DELETE RESERVATION</string>
+
+
+    <string name="date_picker_text_en">When do you want to travel?</string>
+    <string name="time_picker_text_en">What time?</string>
+
+    <string name="my_reservations_en">My Reservations</string>
+    <string name="my_feedbacks_en">My Feedbacks</string>
+
+
+    <string name="feedback_button_en">Leave a Feedback!</string>
+    <string name="price_hour_en">Price / Hour</string>
+    <string name="riepilogo_prenotazione">Ecco i dettagli della tua prenotazione:</string>
+    <string name="leave_a_feedback_en">Leave a Feedback!</string>
+    <string name="end_trip_and_pay_en">End trip and Pay</string>
+
+    <string name="username_text">Username</string>
+    <string name="user_details">User details</string>
+
+    <string name="email_text">Email</string>
+    <string name="update">Update</string>
+    <string name="username">Mario Rossi</string>
+    <string name="email">mario.rossi@mail.com</string>
+
+
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_sign_in">LOGIN</string>
+    <string name="action_sign_up">SIGNUP</string>
+    <string name="add_feedback">Add Feedback</string>
+    <string name="pick_time" />
+
+
+    <!-- ->
+    MapBox configuration
+    </!-->
+    <string name="mapbox_access_token">pk.eyJ1Ijoic2lsdmlvZiIsImEiOiJjbDI1emRvOGcyZHJzM2JtdDJjam53NG1tIn0.Y6eP5eVbe20ailD6JExa_w</string>
+    <string name="intervallo_prenotaione">Intervallo di tempo prenotazione</string>
+    <string name="start_booking_en">Start Booking</string>
+
+    <string name="booking_duration">Booking duration</string>
+    <string name="add_feedback_button">ADD FEEDBACK</string>
+    <string name="home_button">HOME</string>
+    <string name="reservation_time">Reservation Time</string>
+    <string name="time_label">Time</string>
+    <string name="date_label">Date</string>
+    <string name="reservation_date">Reservation Date</string>
+    <string name="home_feedback">Home</string>
+    <string name="add_new_feedback">Add New Feedback</string>
+    <string name="delete_feedback">Delete Feedback</string>
+
+</resources>
