@@ -4,6 +4,7 @@ import android.app.DatePickerDialog
 import android.app.DatePickerDialog.OnDateSetListener
 import android.app.TimePickerDialog
 import android.app.TimePickerDialog.OnTimeSetListener
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.view.View
@@ -208,13 +209,13 @@ class BookRide : AppCompatActivity() {
                 })
         })
 
-        //TODO UNCOMMENT
-           /* userAvatar?.setOnClickListener(View.OnClickListener { view: View ->
+
+            userAvatar?.setOnClickListener(View.OnClickListener { view: View ->
                 val intent = Intent(view.context, UserDetailsActivity::class.java)
                 //intent.putExtra("token", token);
                 intent.putExtra("currentUser", currentUser)
                 view.context.startActivity(intent)
-            }) */
+            })
         /*
         BookRideButton.setOnClickListener(view -> {
 
