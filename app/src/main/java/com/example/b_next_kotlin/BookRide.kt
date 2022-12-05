@@ -4,7 +4,6 @@ import android.app.DatePickerDialog
 import android.app.DatePickerDialog.OnDateSetListener
 import android.app.TimePickerDialog
 import android.app.TimePickerDialog.OnTimeSetListener
-import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.view.View
@@ -195,9 +194,10 @@ class BookRide : AppCompatActivity() {
                         val tempList = ArrayList<Car>()
                         tempList.addAll(availableCarsSet)
                         //TODO UNCOMMENT
-                        // val customViewAdapter =CustomCarAdapter(this@BookRide, tempList, currentUser)
+                         val customViewAdapter =
+                             CustomCarAdapter(this@BookRide, tempList, currentUser)
                         // set the CustomViewAdapter for ListView
-                        // AvailableCarsListView?.setAdapter(customViewAdapter)
+                         AvailableCarsListView?.setAdapter(customViewAdapter)
                     }
 
                     override fun onError(anError: ANError) {
