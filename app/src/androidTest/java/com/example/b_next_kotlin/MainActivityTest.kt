@@ -21,7 +21,7 @@ class MainActivityTest : TestCase() {
     fun useAppContext() {
         // Context of the app under test.
         val appContext: android.content.Context =
-            InstrumentationRegistry.getInstrumentation().getTargetContext()
-        TestCase.assertEquals("com.example.b_next_kotlin", appContext.packageName)
+            InstrumentationRegistry.getInstrumentation().targetContext
+        assertEquals("com.example.b_next_kotlin", appContext.packageName)
     }
 }
