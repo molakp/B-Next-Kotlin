@@ -1,8 +1,5 @@
 package model
 
-import model.Reservation
-import model.Feedback
-import model.Car
 import org.json.JSONObject
 import java.io.Serializable
 import java.util.*
@@ -146,4 +143,6 @@ class User : Serializable {
                 ", feedbacks=" + feedbacks +
                 '}'
     }
+
+
 }
