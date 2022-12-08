@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">B-Next</string>
+    <string name="book_now_button_en">Prenota Ora!</string>
+
+    <string name="destination_text_it">Destinazione</string>
+    <string name="date_picker_text_it">Quando vuoi partire?</string>
+    <string name="time_picker_text_it">A che ora?</string>
+    <string name="delete">CANCELLA PRENOTAZIONE</string>
+    <string name="date_picker_text_en">Quando vuoi viaggiare?</string>
+    <string name="time_picker_text_en">Che ora?</string>
+    <string name="my_reservations_en">Le mie prenotazioni</string>
+    <string name="my_feedbacks_en">I miei Feedbacks</string>
+    <string name="feedback_button_en">Lascia un Feedback!</string>
+    <string name="price_hour_en">Prezzo / Ora</string>
+    <string name="riepilogo_prenotazione">Ecco i dettagli della tua prenotazione:</string>
+    <string name="leave_a_feedback_en">Lascai un Feedback!</string>
+    <string name="end_trip_and_pay_en">Termina e Paga</string>
+    <string name="username_text">Username</string>
+    <string name="user_details">Dettagli utente</string>
+    <string name="email_text">Email</string>
+    <string name="update">Aggiorna</string>
+    <string name="username">Mario Rossi</string>
+    <string name="email">mario.rossi@mail.com</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_sign_in">LOGIN</string>
+    <string name="action_sign_up">SIGNUP</string>
+    <string name="add_feedback">Aggiungi Feedback</string>
+    <string name="mapbox_access_token">pk.eyJ1Ijoic2lsdmlvZiIsImEiOiJjbDI1emRvOGcyZHJzM2JtdDJjam53NG1tIn0.Y6eP5eVbe20ailD6JExa_w</string>
+    <string name="intervallo_prenotaione">Booking time slot</string>
+    <string name="start_booking_en">Inizio Prenotazione</string>
+    <string name="booking_duration">Durata prenotazione</string>
+    <string name="add_feedback_button">AGGIUNGI FEEDBACK</string>
+    <string name="home_button">HOME</string>
+    <string name="reservation_time">Ora prenotazione</string>
+    <string name="time_label">Time</string>
+    <string name="date_label">Data</string>
+    <string name="reservation_date">Data prenotazione</string>
+    <string name="home_feedback">Home</string>
+    <string name="add_new_feedback">Aggiungi un Feedback</string>
+    <string name="delete_feedback">Cancella Feedback</string>
+    <string name="price_km_text_en">Quanto vuoi spendere a km?</string>
+    <string name="pick_time">" "</string>
+    <string name="search_button_en">Cerca</string>
+    <string name="welcome">Ciao! Che bello rivederti.</string>
+    <string name="price_km_text">Quanto vuoi spendere al km?</string>
+</resources>
