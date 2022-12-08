@@ -1,5 +1,6 @@
 package com.example.b_next_kotlin
 
+import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
@@ -20,7 +21,9 @@ import model.User
 import org.json.JSONException
 import org.json.JSONObject
 
-class MainActivity : AppCompatActivity() {
+enum class WindowSizeClass { COMPACT, MEDIUM, EXPANDED }
+
+class MainActivity : Activity() {
     var signInText: TextView? = null
     var infoText: TextView? = null
     var infoText2: TextView? = null
@@ -142,6 +145,32 @@ class MainActivity : AppCompatActivity() {
         var url = "http://10.0.2.2:8080/"
     }
 
+
+
+    /*private fun computeWindowSizeClasses() {
+        val metrics = WindowMetricsCalculator.getOrCreate()
+            .computeCurrentWindowMetrics(this)
+
+        val widthDp = metrics.bounds.width() /
+                resources.displayMetrics.density
+        val widthWindowSizeClass = when {
+            widthDp < 600f -> WindowSizeClass.COMPACT
+            widthDp < 840f -> WindowSizeClass.MEDIUM
+            else -> WindowSizeClass.EXPANDED
+        }
+
+        val heightDp = metrics.bounds.height() /
+                resources.displayMetrics.density
+        val heightWindowSizeClass = when {
+            heightDp < 480f -> WindowSizeClass.COMPACT
+            heightDp < 900f -> WindowSizeClass.MEDIUM
+            else -> WindowSizeClass.EXPANDED
+        }
+
+        // Use widthWindowSizeClass and heightWindowSizeClass.
+    }
+
+*/
 
 
 }

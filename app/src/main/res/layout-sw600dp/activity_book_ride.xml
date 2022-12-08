@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:fillViewport="true"
     tools:context=".BookRide">
 
@@ -12,49 +12,50 @@
         android:layout_height="match_parent"
         >
 
-        <Button
-            android:id="@+id/SearchRideButton"
-            android:layout_width="115dp"
-            android:layout_height="60dp"
-            android:backgroundTint="#673AB7"
-            android:text="@string/search_button_en"
-            app:cornerRadius="18dp"
-            app:layout_constraintBottom_toTopOf="@+id/guideline4"
-            app:layout_constraintEnd_toEndOf="@+id/userAvatar"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toEndOf="@+id/TimeChooseEditText"
-            app:layout_constraintTop_toBottomOf="@+id/spesaTextView3"
-            app:layout_constraintVertical_bias="0.86"
-            app:rippleColor="#FF7043"
-            app:strokeColor="#ff7043" />
+    <Button
+        android:id="@+id/SearchRideButton"
+        android:layout_width="115dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#673AB7"
+        android:text="@string/search_button_en"
+        app:cornerRadius="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline4"
+        app:layout_constraintEnd_toEndOf="@+id/userAvatar"
+        app:layout_constraintHorizontal_bias="0.596"
+        app:layout_constraintStart_toEndOf="@+id/TimeChooseEditText"
+        app:layout_constraintTop_toBottomOf="@+id/userAvatar"
+        app:layout_constraintVertical_bias="0.931"
+        app:rippleColor="#FF7043"
+        app:strokeColor="#ff7043" />
 
-        <TextView
+    <TextView
         android:id="@+id/UserNameTextView"
-        android:layout_width="224dp"
+        android:layout_width="400dp"
         android:layout_height="107dp"
+        android:layout_marginStart="80dp"
         android:text="Mario Rossi mariorossi@gmail.com"
         android:textColor="#232323"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/userAvatar"
-        app:layout_constraintEnd_toStartOf="@+id/userAvatar"
-        app:layout_constraintHorizontal_bias="0.376"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/userAvatar" />
+        app:layout_constraintTop_toTopOf="@+id/userAvatar"
+        app:layout_constraintVertical_bias="0.558" />
 
     <ImageView
         android:id="@+id/userAvatar"
-        android:layout_width="99dp"
-        android:layout_height="101dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginEnd="80dp"
         android:clickable="true"
         android:focusable="true"
         android:src="@drawable/avatar"
         app:layout_constraintBottom_toTopOf="@+id/guideline2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.928"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.458" />
+        app:layout_constraintVertical_bias="0.695" />
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/TimeChooseEditText"
@@ -88,20 +89,20 @@
         app:layout_constraintTop_toBottomOf="@+id/DateChooseEditText"
         app:layout_constraintVertical_bias="0.0" />
 
-        <TextView
-            android:id="@+id/spesaTextView3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="40dp"
-            android:text="@string/date_picker_text_en"
-            android:textColor="#2196F3"
-            android:textSize="20sp"
-            app:layout_constraintEnd_toEndOf="@+id/userAvatar"
-            app:layout_constraintHorizontal_bias="0.057"
-            app:layout_constraintStart_toStartOf="@+id/UserNameTextView"
-            app:layout_constraintTop_toTopOf="@+id/guideline2" />
+    <TextView
+        android:id="@+id/spesaTextView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="@string/date_picker_text_en"
+        android:textColor="#2196F3"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/userAvatar"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/UserNameTextView"
+        app:layout_constraintTop_toTopOf="@+id/guideline2" />
 
-        <com.google.android.material.textfield.TextInputEditText
+    <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/DateChooseEditText"
         android:layout_width="158dp"
         android:layout_height="39dp"
@@ -118,7 +119,20 @@
         app:layout_constraintTop_toBottomOf="@+id/spesaTextView3"
         app:layout_constraintVertical_bias="0.0" />
 
-        <androidx.constraintlayout.widget.Guideline
+    <ListView
+        android:id="@+id/ReservationsListView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/userAvatar"
+        app:layout_constraintStart_toStartOf="@+id/UserNameTextView"
+        app:layout_constraintTop_toTopOf="@+id/guideline4"
+        app:layout_constraintVertical_bias="0.498" />
+
+    <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -132,15 +146,5 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_begin="487dp" />
 
-        <ListView
-            android:id="@+id/ReservationsListView"
-            android:layout_width="375dp"
-            android:layout_height="318dp"
-            android:backgroundTint="#FFFFFF"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="@+id/userAvatar"
-            app:layout_constraintStart_toStartOf="@+id/UserNameTextView"
-            app:layout_constraintTop_toTopOf="@+id/guideline4" />
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
-</androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

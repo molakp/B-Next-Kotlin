@@ -1,11 +1,11 @@
 <resources>
-    <string name="app_name">B-Next v0.1</string>
+    <string name="app_name">B-Next</string>
     <string name="search_button_en">Search</string>
     <string name="book_now_button_en">Book Now!</string>
-    <string name="price_km_text_it">Quanto vuoi spendere al km?</string>
-    <string name="destination_text_it">Destinazione</string>
-    <string name="date_picker_text_it">Quando vuoi partire?</string>
-    <string name="time_picker_text_it">A che ora?</string>
+    <string name="price_km_text_en">How much do you want to spend per km?</string>
+    <string name="destination_text_it">Destination</string>
+    <string name="date_picker_text_it">When do you want to leave?</string>
+    <string name="time_picker_text_it">What time?</string>
     <string name="delete">DELETE RESERVATION</string>
 
 
@@ -18,7 +18,7 @@
 
     <string name="feedback_button_en">Leave a Feedback!</string>
     <string name="price_hour_en">Price / Hour</string>
-    <string name="riepilogo_prenotazione">Ecco i dettagli della tua prenotazione:</string>
+    <string name="riepilogo_prenotazione">Here are your booking details:</string>
     <string name="leave_a_feedback_en">Leave a Feedback!</string>
     <string name="end_trip_and_pay_en">End trip and Pay</string>
 
@@ -37,7 +37,7 @@
     <string name="action_sign_in">LOGIN</string>
     <string name="action_sign_up">SIGNUP</string>
     <string name="add_feedback">Add Feedback</string>
-    <string name="pick_time" />
+    <string name="pick_time" >" "</string>
 
 
     <!-- ->
@@ -57,5 +57,7 @@
     <string name="home_feedback">Home</string>
     <string name="add_new_feedback">Add New Feedback</string>
     <string name="delete_feedback">Delete Feedback</string>
+    <string name="welcome">Hi there! Nice to see you again.</string>
+    <string name="price_km_text">How much do you want to spend per km?</string>
 
 </resources>
