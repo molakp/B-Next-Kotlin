@@ -76,7 +76,7 @@ class BookActivity : AppCompatActivity() {
         val drawableId = this.resources.getIdentifier(src, "drawable", this.packageName)
         carImageReservation?.setImageResource(drawableId)
         AndroidNetworking.initialize(applicationContext)
-
+        nameOfCar!!.setText(currentCar?.name  +" "+ currentCar?.carModel)
         //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         //nameOfCar.setTypeface(null,Typeface.BOLD);
