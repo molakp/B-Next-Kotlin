@@ -62,7 +62,7 @@ class CustomReservationAdapter// pass the context and arrayList for the super
         // then according to the position of the view assign the desired image for the same
         val userImage = currentItemView.findViewById<ImageView>(R.id.imageView)
         //assert currentNumberPosition != null;
-        userImage.setImageResource(R.drawable.tesla_model_x)
+        userImage.setImageResource(R.drawable.default_car)
 
 
         // Così quando clicco su una prenotazione mi manda alla pagina delle specifiche
