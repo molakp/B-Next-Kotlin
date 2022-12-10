@@ -56,7 +56,6 @@ class BookRide : AppCompatActivity() {
         //Buttons
         SearchRideButton = findViewById(R.id.SearchRideButton)
         //BookRideButton = findViewById(R.id.bookRideButton);
-
         // Text Views
         UserNameTextView = findViewById(R.id.UserNameTextView)
         UserNameTextView?.setText(

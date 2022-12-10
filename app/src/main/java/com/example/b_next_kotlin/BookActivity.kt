@@ -81,7 +81,7 @@ class BookActivity : AppCompatActivity() {
 
         //nameOfCar.setTypeface(null,Typeface.BOLD);
         //textReservation.setTypeface(Typeface.DEFAULT_BOLD);
-        //oreText.setText("Il veicolo sta arrivando...");
+        oreText?.setText(currentCar?.priceHour.toString())
         //priceText.setText("Price / Hour: ");
         //priceText.append(currentCar.getPriceHour().toString()+ " €");
         val start_date = OnDateSetListener { view: DatePicker?, year: Int, month: Int, day: Int ->
